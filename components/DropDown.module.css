@@ -1,0 +1,30 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown div {
+    display: none;
+    position: absolute;
+    background-color: rgba(22, 14, 8, 0.9);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: -50px; /* Ajustez la position par rapport au côté gauche */
+    text-align: left; /* Alignement à gauche des éléments du dropdown */
+  }
+  
+  .dropdown div a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover div {
+    display: block;
+  }
+  
+  .dropdown button i {
+    margin-left: 5px;
+  }
+  

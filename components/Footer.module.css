@@ -1,0 +1,11 @@
+.div{
+
+    padding: 1rem;
+    align-items: center;
+   
+}
+
+.div p {
+    text-align: center;
+    color: aliceblue;
+}

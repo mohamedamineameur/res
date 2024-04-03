@@ -1,0 +1,46 @@
+.div {
+    padding: 1rem;
+    padding-bottom: 2rem;
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  
+  flex-direction: row;
+  background-color: #fff3f3;
+  margin-bottom: 1rem;
+  height:auto;
+  width: 15rem;
+  
+  border-radius: 1rem;
+  object-fit: contain;
+  }
+  
+  
+  .div img {
+    border: 3px solid #fd9b2a;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+    margin-bottom: .5rem;
+
+    
+  }
+
+
+  .spec{
+   
+  
+  text-align: center;
+  align-items: center;
+
+  }
+
+  .lar{
+    
+  }
+
+  .s[type=checkbox] {
+    align-self: flex-start;
+    margin-top: 10px;
+}

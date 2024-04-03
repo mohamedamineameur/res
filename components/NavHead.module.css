@@ -1,0 +1,52 @@
+.nav {
+    
+    flex-wrap: wrap;
+    padding: 1rem;
+    width: 100%;
+    align-items: end;
+    
+}
+
+
+
+.nav {
+    flex: 1;
+    text-align: right;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav ul li:hover::after {
+    width: 100%;
+}
+
+
+/* Media query pour masquer le Dropdown dans la balise nav sur les écrans larges */
+@media screen and (min-width: 900px) {
+    .a {
+      display: none;
+    }
+  }
+  
+  

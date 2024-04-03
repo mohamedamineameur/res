@@ -1,0 +1,27 @@
+.div div{
+    
+    display: flex;
+     flex-wrap: wrap;
+     gap: 1rem;
+     text-align: center;
+justify-content: center;
+  
+
+}
+
+.div  h1 {
+    font-size: 34px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1rem;
+    display: block;
+    text-align: center;
+    
+    
+    
+}
+
+.div{
+  justify-content: center;
+  
+}

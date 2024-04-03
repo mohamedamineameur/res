@@ -1,0 +1,21 @@
+.div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+  }
+  
+  .div img {
+    width: 70px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 1rem; /* Ajoutez une marge à droite pour chaque image sauf la dernière */
+  }
+  
+  .div :last-child img {
+    margin-right: 0; /* Assurez-vous que la dernière image n'a pas de marge à droite */
+  }
+  

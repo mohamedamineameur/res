@@ -1,0 +1,28 @@
+.body {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh; /* Hauteur minimale de 100% de la fenêtre du navigateur */
+  /* Largeur maximale de 100% de la fenêtre du navigateur */
+  margin: 0; /* Supprimer la marge par défaut */
+background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.5)), url(../public/background_Image.jpeg);
+  background-size: calc(); /* Couvre entièrement le conteneur */
+  background-position: center; /* Centrer l'image dans le conteneur */
+  position: relative;
+
+}
+
+
+
+.main {
+    position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1;
+  align-items: center;
+  
+  height: 100%;
+  margin-bottom: 5rem;
+}
+
