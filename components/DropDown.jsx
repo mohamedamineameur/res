@@ -47,7 +47,7 @@ export const Dropdown = () => {
           </div>
         </div>
       );
-    }else if (type > 0) {
+    }else if (type === 1) {
       return (
         <div className={`d-lg-none ${styles.dropdown}`}>
           <button className={'btn btn-light'}>
