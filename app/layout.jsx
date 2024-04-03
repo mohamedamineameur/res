@@ -8,23 +8,9 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import { useState, useEffect } from "react";
 
 
-import { Menu } from "@/components/Menu";
-import plat from '@/public/product-1.jpg'
-import { Connexion } from "@/components/Connexion";
-import { Inscription } from "@/components/Inscription";
-import {Test} from '@/components/test'
-const inter = Inter({ subsets: ["latin"] });
-import {CategorieGestion} from '@/components/CategorieGestion'
-import { ProduitGestion } from "@/components/ProduitGEstion";
-import { RoleGestion } from "@/components/GestionRole";
-import {ListeCategories}from "@/components/ListeCategorie"
-import { CommandeGestion } from "@/components/CommandeGestion";
-import {CommandeComplette} from "@/components/CommandeComplette"
-import { Verification } from "@/components/Verification";
 
-import { ListeMenu } from "@/components/ListeMenu";
-import { DashBord } from "@/components/dashBord";
-import { ListeCategoriesAcc } from "@/components/ListeCatAcc";
+const inter = Inter({ subsets: ["latin"] });
+
 
 /*
 export const metadata = {
